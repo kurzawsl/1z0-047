@@ -19,11 +19,10 @@ insert into ports (port_id,port_name) values(1,'Baltimore');
 insert into ports (port_id,port_name) values(2,'Charleston');
 insert into ports (port_id,port_name) values(3,'Tampa');
 insert into ports (port_id,port_name) values(4,'Miami');
- 
-insert into ships (ship_id,ship_name,home_port_id) values (1,'Codd Crystal',1);
-insert into ships (ship_id,ship_name,home_port_id) values (2,'Codd Elegance',3);
-insert into ships (ship_id,ship_name,home_port_id) values (3,'Codd Champion',null);
-insert into ships (ship_id,ship_name,home_port_id) values (4,'Codd Victorious',3);
-insert into ships (ship_id,ship_name,home_port_id) values (5,'Codd Grandeur',2);
-insert into ships (ship_id,ship_name,home_port_id) values (6,'Codd Prince',2);
+insert into ships (ship_id,ship_name,home_port_id,capacity) values (1,'Codd Crystal',1,2052);
+insert into ships (ship_id,ship_name,home_port_id,capacity) values (2,'Codd Elegance',3,2974);
+insert into ships (ship_id,ship_name,home_port_id,capacity) values (3,'Codd Champion',null,2974);
+insert into ships (ship_id,ship_name,home_port_id,capacity) values (4,'Codd Victorious',3,2974);
+insert into ships (ship_id,ship_name,home_port_id,capacity) values (5,'Codd Grandeur',2,2974);
+insert into ships (ship_id,ship_name,home_port_id,capacity) values (6,'Codd Prince',2,2974);
 end;
