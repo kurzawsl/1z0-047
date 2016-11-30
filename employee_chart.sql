@@ -4,8 +4,6 @@ title varchar2(20),
 reports_to number(7)
 );
 
-alter table employee_chart add constraint fk_em_em foreign key(reports_to) references employee_chart(employee_id);
-
 begin
 insert into employee_chart values(1,'CEO',null);
 insert into employee_chart values(2,'VP',1);
